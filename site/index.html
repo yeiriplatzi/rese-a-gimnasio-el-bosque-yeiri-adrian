@@ -13,17 +13,20 @@
         header {
             background-color: #0a3d62;
             color: white;
-            padding: 20px 40px;
+            padding: 20px;
             text-align: center;
         }
+        header img {
+            max-width: 150px;
+        }
         main {
-            max-width: 900px;
+            max-width: 960px;
             margin: 30px auto;
             background: white;
             padding: 40px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        h1 {
+        h1, h2 {
             color: #0a3d62;
         }
         ul {
@@ -48,14 +51,26 @@
             color: white;
             margin-top: 40px;
         }
+        .image-banner {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-banner img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
     <header>
+        <img src="images/logo-colegio.png" alt="Logo del Colegio">
         <h1>Colegio Gimnasio El Bosque de Cúcuta</h1>
         <p>Reseña institucional</p>
     </header>
     <main>
+        <div class="image-banner">
+            <img src="images/fachada-colegio.jpg" alt="Fachada del Colegio">
+        </div>
         <h2>Contenido</h2>
         <ul>
             <li><a href="historia.html">Historia del Colegio</a></li>
@@ -65,7 +80,8 @@
         </ul>
     </main>
     <footer>
-        <p>Repositorio educativo creado con fines informativos | <a href="http://gimnasioelbosque.edu.co/inicio/" style="color: #fff; text-decoration: underline;">Sitio Oficial</a></p>
+        <p>Repositorio elaborado por <strong>Yeiri Adrian Fernandez Ayala</strong> del grado 9B<br>Creado con fines informativos | 
+        <a href="http://gimnasioelbosque.edu.co/inicio/" style="color: #fff; text-decoration: underline;">Sitio Oficial</a></p>
     </footer>
 </body>
 </html>
